@@ -1,6 +1,12 @@
-<h1>Code Enders</h1>
-<p>projeto modulo 2 resilia educação</p>
+<h1>CodeEnders - Cursos Digitais de Linguagens de Programação.</h1>
 
-<p>Somos Uma Empresa de vendas de cursos de Linguagens De Programação, onde vendemos planos de HTML, CSS e javaScript para todos os publicos, com os melhores professores do mercado</p>
+<div style = "image"><br>
+<img align="center" width= "160"  height="180" alt="logo" src="IMG/CODEE.png">  
 
-<h5>Colaboradores do Projeto: Suanny, Juliane, Júlia, Kesia e Ronald</h5>
+<hr>
+<p>Projeto Módulo 2 Resilia Educação</p>
+
+
+<p>Somos Uma Empresa de vendas de cursos de Linguagens De Programação, onde vendemos planos de HTML, CSS e JavaScript para todos os publicos, com os melhores professores do mercado.</p>
+
+<h5>Colaboradores do Projeto: Suanny, Juliane, Júlia, Kesia e Ronald.</h5>
