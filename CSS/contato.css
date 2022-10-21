@@ -24,6 +24,7 @@ header{
  li{ 
   display: inline-block; 
   margin: 20px;
+  font-weight: bold;
 } 
 h1{ 
   font-weight: 200;
