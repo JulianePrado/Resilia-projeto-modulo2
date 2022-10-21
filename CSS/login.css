@@ -1,0 +1,342 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 110px;
+}
+
+
+ul{
+    display: contents;
+    margin: 6px;
+    margin-inline: .1%;
+    margin-left: .2%;
+}
+
+
+li{
+    display: inline-block;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+
+    font-size: 56px;
+    line-height: 10px;
+    font-family:'Anton', sans-serif;
+}
+
+aside{
+    margin-top: 9%;
+}
+
+span{
+    color: rgb(241, 81, 23);
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(241, 81, 23);
+    transition: 0.3s all;
+}
+
+p{
+    line-height: 20px;
+}
+
+
+@media screen and (max-width: 760px){
+
+    body{
+        margin: auto;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    div.left-login h1{
+        display: inline-block;
+        font-size: larger;
+        text-align: center;
+        font-weight: 900;
+    }
+
+
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    .logo{
+        display: inline-block;
+    }
+
+    ul{
+        display: inline-block;
+
+    }
+
+    li{
+        
+        display: table-cell;
+
+    }
+
+}
+
+ footer{
+    text-align: center;
+  }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.left-login > h1{
+    color: rgb(241, 81, 23);
+    font-size: 3vw;
+
+
+}
+
+.left-login-image{
+    width: 35vw;
+}
+
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(241, 81, 23) ;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+
+.card-login > h1{
+    color:#201b2c;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #201b2c;
+    color: #fff;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+
+.textfield > label{
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.textfield > input::placeholder{
+    color: #fff;
+
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #201b2c;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000056;
+}
+
+.btn-login:hover{
+    color:rgb(241, 81, 23);
+}
+
+.menu li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu{
+    text-align: center;
+    border: 1px solid black;
+    background:  rgb(241, 81, 23);
+    font-style: oblique;
+    font-size: 25px;
+    padding: 20px 50px 20px 80px;
+    
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li a:hover{
+    color: #201b2c;
+}
+
+.clear a{
+   text-decoration: none;
+   font-size: 1.0em;
+   font-weight: bold;
+   padding: 0.3em;
+   font-style:italic;
+   border-radius: 5px;
+   color: #fff;
+    
+}
+
+.clear a:link{
+    color: #201b2c;
+    background-color: rgb(241, 81, 23);
+}
+
+
+.clear a:hover{
+    color: #201b2c;
+    background-color: rgb(241, 81, 23);
+}
+
+
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+    flex-direction: column;
+}
+.left-login > h1{
+    display: none;
+}
+.left-login{
+    width: 100%;
+    height: auto;
+
+}
+.right-login{
+    width: 100%;
+    height: auto;
+
+}
+.left-login-image{
+    width: 50vw;
+} 
+
+.card-login{
+    width: 90%;
+}
+
+}

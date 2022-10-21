@@ -1,0 +1,253 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#title img{
+    height: auto;
+    width: 110px;
+}
+
+ul{
+    display: contents;
+}
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+
+    font-size: 56px;
+    line-height: 10px;
+    font-family:'Anton', sans-serif;
+}
+
+aside{
+    margin-top: 9%;
+}
+
+span{
+    color: rgb(241, 81, 23);
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #201b2c;
+    transition: 0.3s all;
+}
+
+li:hover{
+    color: rgb(241, 81, 23 );
+}
+
+p{
+    line-height: 20px;
+}
+
+img{
+    width: 580px;
+    height: 600px;
+    margin-left: 35%;
+    
+}
+
+input{
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+button{
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(241, 81, 23);
+    border-radius: 50px;
+}
+button a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 760px){
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    input.inputUser{
+        width: 95%;
+    }
+
+    img{
+        display: inline-block;
+        margin-inline: 10%;
+    }
+
+    li{
+        display: inline-block;
+    }
+
+    ul{
+        text-align: center;
+        display: inline-block;
+        width: 100%
+    }
+}
+footer{
+    text-align: center;
+  }
+
+
+.box{
+ color: #201b2c;
+ position: relative;
+ top: 0%;
+ left: 24%;
+ background-color: rgba(0, 0, 0, 0.6);
+ padding: 15px;
+ border-radius: 15px;
+ text-align: center;
+ width: 50%;
+ margin-top: 8%;
+ 
+
+}     
+fieldset{
+    margin-top: 8%;
+    border: 3px solid rgb(241, 81, 23);
+
+}
+legend{
+border: 3px solid #201b2c;
+padding: 10px;
+text-align: center;
+background-color: rgb(241, 81, 23);
+border-radius: 8px;
+
+}
+.inputbox{
+width: 97%;
+position: relative;
+color: #fff
+
+}
+
+.inputUser{
+align-self: start;
+background: none;
+border: none;
+border-bottom: 1px solid white;
+outline: none;
+color: white;
+font-size: 15px;
+width: 100%;
+letter-spacing: 2px;
+}
+.labelinput{
+position: absolute;
+top: 0px;
+left: 0px;
+pointer-events: none;
+transition: .5px;
+
+
+}
+
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput{
+
+top: -20px;
+font-size: 12px;
+color: rgb(241, 81, 23);
+
+}
+
+.info{
+background-image:linear-gradient(to right,rgb(31, 33, 36), rgb(46, 45, 48));
+width: 100%;
+border: none;
+padding: 15px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+border-radius: 10px;
+
+}
+
+.info:hover{
+background-image:linear-gradient(to right, rgb(241, 81, 23), rgb(241, 81, 23));
+
+}
+
+
+@media only screen and (max-width: 915px){
+   .box{
+     left: 18%;
+   }
+}
+
+
+@media only screen and (max-width: 600px){
+ 
+ .index{
+     text-align: center;
+     width: 40%;
+     margin-left: 30%;
+ }
+
+ .box{
+ text-align: center;
+ width: 65%;
+ margin-top: 36%;
+ 
+ 
+ }
+ 
+}
