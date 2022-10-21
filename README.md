@@ -10,3 +10,5 @@
 <p>Somos Uma Empresa de vendas de cursos de Linguagens De Programação, onde vendemos planos de HTML, CSS e JavaScript para todos os publicos, com os melhores professores do mercado.</p>
 
 <h5>Colaboradores do Projeto: Suanny, Juliane, Júlia, Kesia e Ronald.</h5>
+
+Link de acesso à página: https://julianeprado.github.io/Resilia-projeto-modulo2/
