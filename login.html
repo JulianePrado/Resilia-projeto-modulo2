@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/login.css">
+    <title>CodeEnders - Login</title>
+</head>
+<body>
+
+   
+  <div vw class="enabled">
+   <div vw-access-button class="active"></div>
+   <div vw-plugin-wrapper>
+     <div class="vw-plugin-top-wrapper"></div>
+   </div>
+ </div>
+ <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+ <script>
+   new window.VLibras.Widget('https://vlibras.gov.br/app');
+ </script>
+    
+    <header>
+        <div id="title">
+       <img class="logo" src="img/CODEE.png" alt="logo">
+        </div>   
+                <ul>
+                <a href="index.html"><li>Home |</li></a>
+                <a href="card.html"><li>Contato |</li></a>
+                <a href="#"><li>Sobre nós |</li></a>
+                <a href="planos.html"><li>Planos |</li></a>
+                <a href="cadastro.html"><li>Cadastro|</li></a>
+                <a href="login.html"><li>Login</li></a>
+        
+            </ul>
+        </header>
+        <hr>
+        
+    <div class="main-login">
+        <div class="left-login">
+           <h1>Faça login<br>E entre para nosso time</h1>
+        </div>
+        <form class="login__form">
+      <div class="right-login">
+        <div class="card-login">
+           <h1>Login</h1>
+        <div class="textfield">
+           <label for="email">Email:</label>
+           <input type="text" name="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="textfield">
+           <label for="senha">Senha:</label>
+           <input type="password" name="senha" id="password" placeholder="Senha" required>
+        </div>
+        <div class="textfield">
+           <button type="button" class="clear"><a href="redefinir.html">Esqueceu sua Senha?</a></button required>
+        </div>
+        <button class="btn-login" onclick="logar(); return false">Entrar</button>
+        <div class="textfield">
+           <button type="button" class="clear"><a href="cadastro.html">Não tem uma conta? Cadastra-se</a></button>
+         </form>
+        </div>
+        </div>
+      </div>
+   </div>
+   <hr>
+
+   <footer>
+    © Copyright 2022 - The Frontenders
+</footer>
+
+
+<script src="SCRIPT/login.js"></script>
+</body>
+</html>

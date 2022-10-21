@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/redefinir.css"> 
+    <title>CodeEnders - Recuperação De Conta</title>
+</head>
+<body>
+
+    
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+    <header>
+        <div id="title">
+        <img src="img/CODEE.png" alt="logo">
+        </div>   
+                <ul>
+                <a href="index.html"><li>Home |</li></a>
+                <a href="card.html"><li>Contato |</li></a>
+                <a href="#"><li>Sobre nós |</li></a>
+                <a href="planos.html"><li>Planos |</li></a>
+                <a href="cadastro.html"><li>Cadastro|</li></a>
+                <a href="#"><li>Login</li></a>
+        
+            </ul>
+        </header>
+        <hr>
+
+    <fieldset>
+    <legend><b>Redefinição De Senha</b></legend>
+    <br><br>
+<div class="inputbox">
+    <input type="text" name="email"  class="inputUser" placeholder="Digite o email de recuperação" onclick="checkInputs()"  required>
+    <label for="email" class="labelinput">Email:</label><br>
+ </div>
+ <br><Br>
+ <button class="info" type="submit"><a href="login.html">Enviar</a></button>
+
+     </fieldset>
+    </form>
+</div>
+<br><br>
+<hr>
+  <footer>
+    © Copyright 2022 - The Frontenders
+</footer>
+
+
+<script src="SCRIPT/redefinir.js"></script>
+</body>
+</html>
