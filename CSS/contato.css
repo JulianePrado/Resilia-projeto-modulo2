@@ -13,6 +13,13 @@ header{
   justify-content: space-between; 
   align-items: center;
 } 
+
+#title img{
+  top: 0;
+  margin: 0;
+  height: auto;
+  width: 60%;
+}
 #title{
   flex-direction: column;
   line-height: 10px;
