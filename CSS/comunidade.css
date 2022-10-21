@@ -1,0 +1,155 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title img{
+    top: 0;
+    margin: 0;
+    height: auto;
+    width: 60%;
+}
+
+ul{
+    display: contents;
+    margin: 6px;
+    margin-inline: .1%;
+    margin-left: .2%;
+}
+
+li{
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+
+    font-size: 56px;
+    line-height: 10px;
+    font-family:'Anton', sans-serif;
+}
+
+aside{
+    margin-top: 9%;
+}
+
+span{
+    color: rgb(241, 81, 23);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000;
+    transition: 0.3s all;
+}
+
+li:hover{
+    color: rgb(241, 81, 23);
+}
+
+p{
+    line-height: 20px;
+}
+
+img{
+    width: 580px;
+    height: 600px;
+    margin-left: 35%;
+    
+}
+
+input{
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+button{
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(241, 81, 23);
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 760px){
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 38px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: inline-block;
+    }
+
+    ul{
+        text-align: end;
+        display: inline-block;
+        
+    }
+}
+footer{
+    text-align: center;
+  }
+
+
+ article img{  
+    width: 110px;
+    height: auto; 
+}
+
+aside{
+    display:inline-flexbox;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.botão{
+    display:inline-flexbox;
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
