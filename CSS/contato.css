@@ -20,10 +20,7 @@ header{
   height: auto;
   width: 60%;
 }
-#title{
-  flex-direction: column;
-  line-height: 10px;
-}
+
  li{ 
   display: inline-block; 
   margin: 20px;
