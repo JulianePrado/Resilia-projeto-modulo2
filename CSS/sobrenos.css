@@ -1,0 +1,95 @@
+#bodytotal{
+    background-color: black;
+}
+
+#title1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 5px;
+    top: 0;
+    margin: 0;
+    height: auto;
+    width: 50%;
+    padding-top: 5%;
+       
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+li{
+    display: inline-block;
+    margin: 20px 40px 10px 10px;
+}
+
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 2%;
+}
+
+
+
+aside{
+    margin-top: 9%;
+}
+
+span{
+    color: rgb(241, 81, 23)C;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(241, 81, 23);
+    transition: 0.3s all;
+}
+
+
+#imglogo{
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+input{
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+#imgp1{
+    margin-left: 10%;
+}
+
+#h2t1{
+    color:rgb(241, 81, 23);
+}
+#ptext1 {
+    color: azure;
+}
+#h2t2{
+    color: rgb(241, 81, 23);
+}
+#ptext2 {
+    color: azure;
+}
+#h2t3{
+    color: rgb(241, 81, 23);
+}
+#ptext3 {
+    color: azure;
+}
